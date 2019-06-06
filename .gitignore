@@ -46,7 +46,4 @@ testem.log
 Thumbs.db
 
 # IDE - Visual Studio
-/bin
-/obj
-/packages
-/.vs
+.vs/*
