@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Clone, IReducer } from 'reduce-store';
-import { Hero } from '@app/hero';
-import { HeroService } from '@app/hero.service';
+import { Hero } from 'src/app/hero';
+import { HeroService } from 'src/app/hero.service';
 
 export class State extends Clone<State>{
   term: string;

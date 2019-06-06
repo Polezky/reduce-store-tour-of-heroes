@@ -2,7 +2,7 @@ import { Component, OnInit, OnDestroy } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Location } from '@angular/common';
 
-import * as heroDetail from '@app/hero-detail/hero-detail.state';
+import * as heroDetail from 'src/app/hero-detail/hero-detail.state';
 import { Store } from 'reduce-store';
 
 @Component({

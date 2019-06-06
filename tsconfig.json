@@ -19,13 +19,6 @@
       "dom"
     ],
     "paths": {
-      "reduce-store": [
-        "dist/reduce-store"
-      ],
-      "reduce-store/*": [
-        "dist/reduce-store/*"
-      ],
-      "@app/*": [ "src/app/*" ]
     }
   }
 }

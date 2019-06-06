@@ -1,6 +1,6 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { Store } from 'reduce-store';
-import * as dashboard from '@app/dashboard/dashboard.state';
+import * as dashboard from 'src/app/dashboard/dashboard.state';
 
 @Component({
   selector: 'app-dashboard',

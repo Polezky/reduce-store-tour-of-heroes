@@ -7,7 +7,7 @@ import { catchError, map, tap } from 'rxjs/operators';
 import { Hero } from './hero';
 
 import { Store } from 'reduce-store';
-import * as messages from '@app/messages/messages.state';
+import * as messages from 'src/app/messages/messages.state';
 
 const httpOptions = {
   headers: new HttpHeaders({ 'Content-Type': 'application/json' })

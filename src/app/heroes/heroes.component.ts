@@ -1,7 +1,7 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
 
-import { Hero } from '@app/hero';
-import * as heroes from '@app/heroes/heroes.state';
+import { Hero } from 'src/app/hero';
+import * as heroes from 'src/app/heroes/heroes.state';
 import { Store } from 'reduce-store';
 
 @Component({

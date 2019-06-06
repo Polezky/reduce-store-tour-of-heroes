@@ -1,6 +1,6 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { Store } from 'reduce-store';
-import * as messages from '@app/messages/messages.state';
+import * as messages from 'src/app/messages/messages.state';
 
 @Component({
   selector: 'app-messages',

@@ -2,7 +2,7 @@ import { APP_INITIALIZER, Injector } from '@angular/core';
 import { Store, StoreConfig, AllLogEventTypes, StoreService } from 'reduce-store';
 import { environment } from '../environments/environment';
 
-import * as messages from '@app/messages/messages.state';
+import * as messages from 'src/app/messages/messages.state';
 
 export const AppInitializer = {
   provide: APP_INITIALIZER,
