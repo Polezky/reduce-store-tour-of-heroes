@@ -1,6 +1,6 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
 
-import * as heroSearch from 'src/app/hero-search/hero-search.state';
+import * as heroSearch from './hero-search.state';
 import { Store, ReducerTask } from 'reduce-store';
 
 @Component({
